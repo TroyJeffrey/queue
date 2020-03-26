@@ -15,5 +15,3 @@ class Queue:
     def pop(self):
         self.queue.pop_head()
 
-m = Queue
-m.push(10)
