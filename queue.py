@@ -2,16 +2,18 @@
 # Queue
 # 03/05/2020
 
-from LinkedList import LinkedListTail
+from LinkedListTail import LinkedListTail
 
 
 class Queue:
     def __init__(self):
-        self.myqueue = LinkedListTail()
+        self.queue = LinkedListTail()
 
     def push(self, data):
-        self.myqueue.push_end(data)
+        self.queue.push_head(data)
 
-    def pop(self, data):
-        self.myqueue.remove_head()
+    def pop(self):
+        self.queue.pop_head()
 
+m = Queue
+m.push(10)
