@@ -54,7 +54,3 @@ class LinkedListTail:
             current_node = current_node.next
         previous_node.next = None
         return current_node.data
-
-
-
-
